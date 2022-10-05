@@ -1,4 +1,5 @@
-document.addEventListener("DOMContentLoaded", function(){
+<script>
+       document.addEventListener("DOMContentLoaded", function(){
         var cards = document.querySelectorAll('.t-store__card');
 //перебираем все найденные элементы и вешаем на них события
 [].forEach.call( cards, function(card) {
@@ -8,3 +9,4 @@ document.addEventListener("DOMContentLoaded", function(){
     }
 });
 }
+</script>
